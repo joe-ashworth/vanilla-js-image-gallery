@@ -17,7 +17,7 @@ function imgActivate(e) {
   // Add fadeIn class
   current.classList.add("fade-in");
 
-  // Remove fadeIn class after animation time
+  // Remove fadeIn class after animation time elapsed
   setTimeout(() => current.classList.remove("fade-in"), 500);
 
   // Change opacity to variable value
